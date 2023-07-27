@@ -104,7 +104,9 @@ font-size: 14px;
 }
 
 img {
-    border-radius: 10px;
+  padding: 20px 100px;
+  background: var(--secondary-color);
+  border-radius: 6px;
  }
 
 .project-description {
