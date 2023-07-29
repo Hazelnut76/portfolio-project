@@ -31,7 +31,6 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  
 }
 
 .hero {
@@ -55,7 +54,7 @@ p {
 }
 
 .content-container {
-padding: 160px 20px;
+  padding: 160px 20px;
 }
 
 .content h1 {
@@ -66,19 +65,17 @@ padding: 160px 20px;
 .content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
- 
 }
 
 .content h3 {
-font-size: 24px;
-line-height: 1.5;
-margin: 20px 0 0;
-font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
 }
 
 .content p {
-font-size: 14px;
-
+  font-size: 14px;
 }
 
 .content {
@@ -103,36 +100,68 @@ font-size: 14px;
   padding: 15px 30px;
 }
 
-img {
+.img-fluid {
   padding: 20px 100px;
   background: var(--secondary-color);
   border-radius: 6px;
- }
+}
 
 .project-description {
-    padding: 120px 60px;
+  padding: 120px 60px;
+}
+
+.logo {
+  max-height: 42px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav lu {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 960px) {
-    h1 {
-        font-size: 44px;
-        line-height: 56px;
-    }
-    h2 {
-        font-size: 44px;
-    }
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 44px;
+  }
 
-    .hero {
-        padding: 80px 20px;
-    }
+  .hero {
+    padding: 80px 20px;
+  }
 
-.content {
-  text-align: center;
-  padding: 0;
-}
+  .content {
+    text-align: center;
+    padding: 0;
+  }
 
-.project-description {
+  .project-description {
     padding: 0;
     text-align: center;
-}
+  }
+
 }
